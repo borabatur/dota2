@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-container, .footer {
+    background-color: #1F2937;
+    padding: 20px 250px;
+  }
+
+  div {
+    display: block;
+  }
+
+  .header, .footer  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .right-links {
+    display:flex;
+    gap: 30px;
+  }
+
+  
+  .logo {
+    flex: 0 0 auto;
+    width: 50px;
+  }
+
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 16px
+  }
+
+  a {
+    text-decoration: none;
+    color: #F9FAF8;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 150px;
+    align-items: flex-start;
+    
+  }
+
+  .hero-left  {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+  }
+
+  .hero-button {
+    flex: 0 0 auto;
+    align-self: flex-start;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    }
+
+  .hero-main  {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+  }
+  
+  .hero-sub, 
+  .right-links {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+  }
+
+  .img  {
+    object-fit: cover;
+    width: 500px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 350px;
+    align-items: center;
+  }
+
+  .info .info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-bottom: 40px;
+  }
+
+  .info .worker-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .worker-container .worker {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 280px;
+  }
+
+  .worker .worker-icon  {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    max-width: 280px;
+    align-self: center;
+  }
+
+  .worker .worker-textbox {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .worker-textbox .worker-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    justify-items: center;
+    padding: 12px;
+  }
+
+  .worker-textbox .worker-text  {
+    font-size 16px;
+    font-weight: 700;
+    text-align: justify;
+  }
+
+  .quote-container  {
+    display: flex;
+    padding: 100px 450px;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  .quote-container .quote-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+  }
+
+  .quote-img .img-2  {
+    object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    max-width: 320px;
+    align-self: center;
+  }
+
+  .quote-container .quote  {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .quote .quote-text {
+    flex: 1;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .quote .quote-author  {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 30px;
+  }
+
+  .call {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    background-color: #3882F6;
+    padding: 100px 200px;
+    border-radius: 10px;
+  }
+
+  .call .call-textbox {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .call-textbox .call-title {
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .call .call-button  {
+    flex: 0 0 auto;
+    max-height: 3em;
+    font-size: 20px;
+    max-width: 150px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    color: white;
+    background-color: #3882F6;
+    border: white solid 2px;
+    cursor: pointer;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8
+  }
