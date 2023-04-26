@@ -148,7 +148,7 @@ body {
   }
 
   .worker-textbox .worker-text  {
-    font-size 16px;
+    font-size: 16px;
     font-weight: 700;
     text-align: justify;
   }
